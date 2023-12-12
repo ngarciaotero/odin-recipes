@@ -4,3 +4,12 @@
   /* background-position: center; */
   background-size: cover;
 }
+
+.header {
+  color: #e0ccc5d1;
+}
+
+.recipe-list {
+  color: #e0ccc5d1;
+  font-size: larger;
+}
