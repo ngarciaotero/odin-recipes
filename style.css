@@ -1,15 +1,15 @@
-.background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/street-market.jpg");
-  /* background-position: center; */
-  background-size: cover;
-}
-
 .header {
   color: #e0ccc5d1;
 }
 
-.recipe-list {
+/* .background { */
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
+/* url("/images/street-market.jpg"); */
+/* background-position: center; */
+/* background-size: cover; */
+/* } */
+
+/* .recipe-list {
   color: #e0ccc5d1;
   font-size: larger;
-}
+} */
