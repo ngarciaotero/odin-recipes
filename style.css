@@ -2,6 +2,10 @@
   color: #e0ccc5d1;
 }
 
+svg {
+  width: 100%;
+  height: auto;
+}
 /* .background { */
 /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
 /* url("/images/street-market.jpg"); */
