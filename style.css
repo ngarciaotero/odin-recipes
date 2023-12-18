@@ -1,4 +1,6 @@
 .header {
+  display: flex;
+  flex-direction: column;
   color: lavender;
   text-align: center;
   margin: 0;
