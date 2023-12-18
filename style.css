@@ -29,14 +29,6 @@ footer {
   color: darkblue;
 }
 
-/* path[id*="Ecuador.10m_admin_0_countries.70"] {
-  fill: #ff0000;
-} */
-
-/* path[id*="Ecuador.10m_admin_0_countries.70_10_"] {
-  fill: #ff0000;
-} */
-
 path[id*="Ecuador.10m_admin_0_countries.70_13_"] {
-  fill: black;
+  fill: #9a8cfd;
 }
