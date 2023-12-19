@@ -18,6 +18,11 @@ body {
   margin: 0;
 }
 
+.map-container {
+  min-width: 1500px;
+  min-height: 3000px;
+}
+
 footer {
   display: flex;
   justify-content: center;
