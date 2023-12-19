@@ -20,9 +20,12 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .map-container svg {
   min-width: 1500px;
   min-height: 700px;
+  max-width: 1500px;
+  max-height: 700px;
 }
 
 footer {
@@ -34,3 +37,11 @@ footer {
   background-color: aliceblue;
   color: darkblue;
 }
+
+use:hover #Countries #Peru {
+  fill: black !important;
+}
+
+/* path[id="Peru\\.10m_admin_0_countries\\.176"]:hover {
+  fill: black;
+} */
