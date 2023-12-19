@@ -17,11 +17,6 @@ body {
   flex: 1;
 }
 
-.map-container {
-  min-width: 1500px;
-  min-height: 10vh;
-}
-
 footer {
   text-align: center;
   bottom: 0;
