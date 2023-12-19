@@ -1,6 +1,4 @@
 .header {
-  display: flex;
-  flex-direction: column;
   color: palegoldenrod;
   text-align: center;
   margin: 0;
@@ -16,11 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  flex: 1;
 }
 
 .map-container {
   min-width: 1500px;
-  min-height: 800px;
+  min-height: 100vh;
 }
 
 footer {
