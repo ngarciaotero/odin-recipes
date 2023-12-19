@@ -39,7 +39,7 @@ footer {
 }
 
 use:hover #Countries #Peru {
-  fill: black !important;
+  fill: black;
 }
 
 /* path[id="Peru\\.10m_admin_0_countries\\.176"]:hover {
