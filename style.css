@@ -37,3 +37,8 @@ footer {
   background-color: aliceblue;
   color: darkblue;
 }
+
+use:hover {
+  cursor: pointer;
+  fill: green;
+}
