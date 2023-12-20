@@ -42,3 +42,7 @@ use:hover {
   cursor: pointer;
   fill: rgb(111, 255, 0);
 }
+
+use {
+  opacity: 0.8;
+}
