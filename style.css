@@ -41,6 +41,7 @@ footer {
 
 use:hover {
   fill: rgba(147, 122, 122, 0.249);
+  cursor: url(/images/pin.png) 10 10, auto;
 }
 
 use {
