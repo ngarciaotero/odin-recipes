@@ -47,7 +47,7 @@ a {
 }
 
 use:hover {
-  fill: rgba(147, 122, 122, 0.249);
+  fill: rgba(0, 0, 0, 0.736);
   cursor: url(/images/pin.png) 0 21, auto;
 }
 
