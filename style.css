@@ -38,6 +38,12 @@ footer {
   color: palegoldenrod;
 }
 
+a {
+  text-decoration: none;
+  color: palegoldenrod;
+  font-weight: bold;
+}
+
 use:hover {
   fill: rgba(147, 122, 122, 0.249);
   cursor: url(/images/pin.png) 0 21, auto;
