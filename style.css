@@ -40,7 +40,6 @@ footer {
 }
 
 use:hover {
-  cursor: pointer;
   fill: rgba(147, 122, 122, 0.249);
 }
 
