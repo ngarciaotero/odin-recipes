@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   margin: 0;
   background-image: url(/images/field-women.jpg);
-  background-size: 100%;
+  background-size: 100% 114%;
   background-repeat: no-repeat;
 }
 
