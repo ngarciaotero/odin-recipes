@@ -40,5 +40,5 @@ footer {
 
 use:hover {
   cursor: pointer;
-  fill: green;
+  fill: rgb(111, 255, 0);
 }
