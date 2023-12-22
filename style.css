@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-image: url(images/field-women.jpg);
+  background-image: url(images/backgrounds/field-women.jpg);
   background-size: 100% 118%;
   background-repeat: no-repeat;
 }
@@ -63,7 +63,7 @@ a {
 
 use:hover {
   fill: rgba(0, 0, 0, 0.736);
-  cursor: url(images/pin.png) 0 21, auto;
+  cursor: url(images/cursor/pin.png) 0 21, auto;
 }
 
 use {
