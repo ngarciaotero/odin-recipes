@@ -40,6 +40,7 @@ footer {
   height: 60px;
   color: #b3c4ed;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.408);
 }
 
 a {
