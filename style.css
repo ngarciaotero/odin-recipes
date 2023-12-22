@@ -1,9 +1,15 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #203b71;
-  text-align: center;
   margin: 0;
   padding-top: 40px;
   font-family: "Cinzel", sans-serif;
+}
+
+.divider {
+  width: 70px;
 }
 
 h1,
