@@ -13,13 +13,13 @@
   width: 100px;
 }
 
-h4 {
+h5 {
   color: #203b71;
 }
 
 h1,
 p,
-h4 {
+h5 {
   margin: 0;
   text-align: center;
 }
