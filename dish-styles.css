@@ -17,7 +17,7 @@ input[type="checkbox"] {
   appearance: none;
   outline: none;
   cursor: pointer;
-  border: 15px solid rgba(48, 70, 99, 0.281);
+  border: 18px solid rgba(48, 70, 99, 0.281);
   border-radius: 6px;
 }
 input[type="checkbox"]:checked {
@@ -26,4 +26,11 @@ input[type="checkbox"]:checked {
 
 div {
   border: 1px solid red;
+}
+
+.recipe-header,
+.history-header,
+.page-header {
+  text-align: center;
+  font-size: 30px;
 }
