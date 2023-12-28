@@ -12,6 +12,17 @@ ul {
   list-style-type: none;
 }
 
+input[type="checkbox"] {
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  border: 15px solid rgba(48, 70, 99, 0.281);
+  border-radius: 6px;
+}
+input[type="checkbox"]:checked {
+  background-color: rgba(56, 248, 162, 0.983);
+}
+
 div {
   border: 1px solid red;
 }
