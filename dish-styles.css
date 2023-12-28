@@ -1,3 +1,17 @@
 body {
   display: flex;
+  flex-direction: column;
+}
+
+.recipe {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div {
+  border: 1px solid red;
 }
