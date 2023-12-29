@@ -6,11 +6,12 @@ body {
 .recipe {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 90px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 li {
@@ -50,4 +51,19 @@ div {
 .page-header {
   text-align: center;
   font-size: 30px;
+}
+
+.select-item,
+.ingredient-header {
+  margin: 0px;
+}
+
+.scroll-background {
+  background-image: url("/images/scroll.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 320px;
+  padding-top: 60px;
+  padding-left: 40px;
 }
