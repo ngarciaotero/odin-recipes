@@ -20,6 +20,8 @@ li {
 
 label {
   margin-left: 10px;
+  color: gray;
+  font-weight: bold;
 }
 
 input[type="checkbox"] {
@@ -29,8 +31,14 @@ input[type="checkbox"] {
   border: 18px solid rgba(48, 70, 99, 0.281);
   border-radius: 6px;
 }
+
 input[type="checkbox"]:checked {
   background-color: rgba(56, 248, 162, 0.983);
+}
+
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: rgb(33, 132, 33);
 }
 
 div {
