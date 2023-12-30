@@ -15,35 +15,32 @@ ul {
 }
 
 li {
-  display: flex;
-  align-items: center;
+  margin: 5px;
+  font-size: 20px;
 }
 
-label {
+.checklist-label {
   margin-left: 10px;
-  color: gray;
+  color: rgb(100, 99, 99);
   font-weight: bold;
 }
 
-input[type="checkbox"] {
-  appearance: none;
-  outline: none;
+.hidden-cb:checked + .checklist-label {
+  color: rgb(1, 89, 1);
+}
+
+.checklist-label::before {
+  content: url(images/empty-check-mark.png);
   cursor: pointer;
-  border: 18px solid rgba(48, 70, 99, 0.281);
-  border-radius: 6px;
 }
 
-input[type="checkbox"]:checked {
-  background-color: rgba(56, 248, 162, 0.983);
+.hidden-cb:checked + .checklist-label::before {
+  content: url(images/fill-check-mark.png);
 }
 
-input[type="checkbox"]:checked + label {
-  font-weight: bold;
-  color: rgb(33, 132, 33);
-}
-
-div {
-  border: 1px solid red;
+.hidden-cb {
+  position: absolute;
+  clip: rect(0 0 0 0);
 }
 
 .recipe-header,
@@ -56,14 +53,15 @@ div {
 .select-item,
 .ingredient-header {
   margin: 0px;
+  color: rgb(76, 40, 26);
 }
 
 .stone-background {
-  background-image: url("/images/stone.png");
+  background-image: url(images/stone.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 500px;
   height: 300px;
-  padding-top: 80px;
-  padding-left: 50px;
+  padding-top: 70px;
+  padding-left: 75px;
 }
