@@ -3,6 +3,29 @@ body {
   flex-direction: column;
 }
 
+.background-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(images/mini-world.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 110vw 100vh;
+  z-index: -1;
+}
+
+.background-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .recipe {
   display: flex;
   justify-content: center;
