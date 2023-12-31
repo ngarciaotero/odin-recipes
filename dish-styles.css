@@ -65,8 +65,9 @@ li {
 
 .checklist-label {
   margin-left: 10px;
-  color: rgb(100, 99, 99);
+  color: rgb(82, 80, 80);
   font-weight: bold;
+  text-shadow: 8px 8px 8px rgba(70, 69, 69, 0.57);
 }
 
 .stone-background {
@@ -81,7 +82,7 @@ li {
 
 /* Ingredients List Functionality */
 .hidden-cb:checked + .checklist-label {
-  color: rgb(1, 89, 1);
+  color: rgb(23, 80, 23);
 }
 
 .checklist-label::before {
@@ -101,7 +102,8 @@ li {
 .select-item,
 .ingredient-header {
   margin: 0px;
-  color: rgb(82, 27, 5);
+  color: rgb(111, 49, 24);
+  text-shadow: 8px 8px 8px rgba(70, 69, 69, 0.662);
 }
 
 /* Book Functionality */
