@@ -9,6 +9,27 @@ body {
   align-items: center;
 }
 
+.recipe-header,
+.page-header {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.page-header {
+  margin-top: 25px;
+}
+
+.recipe-header {
+  margin-top: 20px;
+}
+
+.click-book-prompt {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 ul {
   list-style-type: none;
   padding: 0px;
@@ -25,6 +46,17 @@ li {
   font-weight: bold;
 }
 
+.stone-background {
+  background-image: url(images/stone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 300px;
+  padding-top: 70px;
+  padding-left: 75px;
+}
+
+/* Ingredients List Functionality */
 .hidden-cb:checked + .checklist-label {
   color: rgb(1, 89, 1);
 }
@@ -43,25 +75,41 @@ li {
   clip: rect(0 0 0 0);
 }
 
-.recipe-header,
-.history-header,
-.page-header {
-  text-align: center;
-  font-size: 30px;
-}
-
 .select-item,
 .ingredient-header {
   margin: 0px;
-  color: rgb(76, 40, 26);
+  color: rgb(82, 27, 5);
 }
 
-.stone-background {
-  background-image: url(images/stone.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 500px;
-  height: 300px;
-  padding-top: 70px;
-  padding-left: 75px;
+/* Book Functionality */
+.bookLabel {
+  display: inline-block;
+}
+
+.bookLabel::before {
+  content: url(images/closed-book.png);
+  padding-left: 500px;
+  position: relative;
+  top: 10px;
+}
+
+.hidden-cb:checked + .bookLabel::before {
+  content: url(images/open-book.png);
+  padding-left: 300px;
+  position: relative;
+  top: 22px;
+}
+
+.hidden-cb:checked + .bookLabel .textOverlay {
+  display: block;
+}
+
+/* Book content */
+.textOverlay {
+  position: absolute;
+  top: 240px;
+  left: 675px;
+  color: red;
+  font-size: 18px;
+  display: none;
 }
