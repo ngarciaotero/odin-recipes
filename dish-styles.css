@@ -23,7 +23,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(33, 28, 28, 0.587);
 }
 
 .recipe {
@@ -37,6 +37,7 @@ body {
   text-align: center;
   font-size: 25px;
   margin-bottom: 0px;
+  color: rgb(174, 159, 148);
 }
 
 .page-header {
