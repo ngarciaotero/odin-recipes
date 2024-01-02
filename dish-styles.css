@@ -5,8 +5,8 @@
 body {
   display: flex;
   flex-direction: column;
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 0;
 }
 
@@ -19,7 +19,7 @@ body {
   background-image: url(images/mini-world.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 110vw 100vh;
+  background-size: 112vw 101vh;
   z-index: -1;
 }
 
@@ -30,7 +30,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(33, 28, 28, 0.578);
+  background-color: rgba(171, 154, 136, 0.53);
 }
 
 .recipe {
@@ -42,32 +42,33 @@ body {
 .recipe-header,
 .page-header {
   font-family: "Cinzel Decorative", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 0px;
-  color: rgb(248, 241, 230);
-  background-color: rgba(230, 209, 199, 0.171);
-  text-shadow: 2px 1px 3px rgb(245, 179, 103);
+  color: rgb(74, 31, 2);
+  background-color: rgba(73, 28, 2, 0.265);
+  text-shadow: 3px 2px 2px rgb(229, 129, 7);
   border-radius: 10px;
 }
 
 .page-header {
-  margin-top: 8px;
+  margin-top: 50px;
 }
 
 .recipe-header {
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .click-book-prompt {
+  position: relative;
   font-family: "Cinzel Decorative", sans-serif;
   font-weight: 400;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 30px;
-  color: rgb(248, 241, 230);
-  text-shadow: 2px 1px 1px rgba(237, 152, 82, 0.568);
+  margin: 0;
+  color: rgb(37, 18, 2);
+  text-shadow: 1px 1px 1px rgba(177, 69, 7, 0.801);
+  top: -40px;
 }
 
 ul {
@@ -143,14 +144,13 @@ li {
   content: url(images/closed-book.png);
   padding-left: 480px;
   position: relative;
-  top: 10px;
+  top: -20px;
 }
 
 .hidden-cb:checked + .book-label::before {
   content: url(images/open-book.png);
   padding-left: 270px;
   position: relative;
-  top: 22px;
 }
 
 .hidden-cb:checked + .book-label .text-overlay {
@@ -166,17 +166,21 @@ li {
   display: block;
 }
 
+.hidden-cb:checked + .book-label + .click-book-prompt {
+  display: none;
+}
+
 .left-page {
   position: absolute;
-  left: 505px;
-  top: 85px;
+  left: 490px;
+  top: 90px;
   width: 235px;
 }
 
 .right-page {
   position: absolute;
-  right: 450px;
-  top: 105px;
+  right: 465px;
+  top: 120px;
   width: 300px;
 }
 
