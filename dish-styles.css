@@ -152,14 +152,14 @@ li {
 .left-page {
   position: absolute;
   left: 505px;
-  top: 90px;
+  top: 85px;
   width: 235px;
 }
 
 .right-page {
   position: absolute;
   right: 450px;
-  top: 118px;
+  top: 105px;
   width: 300px;
 }
 
@@ -181,10 +181,10 @@ h5 {
 }
 
 .fish {
-  width: 120px;
-  height: 65px;
-  margin-top: -40px;
-  margin-left: 200px;
+  width: 100px;
+  height: 60px;
+  margin-top: -30px;
+  margin-left: 220px;
 }
 
 .lime {
