@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ceviche</title>
     <link rel="stylesheet" href="../dish-styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=MedievalSharp&family=Rubik+Lines&family=Rubik+Scribble&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Germania+One&family=MedievalSharp&family=Rubik+Lines&family=Rubik+Scribble&family=Space+Mono&display=swap" rel="stylesheet">      
   </head>
   <body>
     <div class="background-container"></div>
@@ -15,21 +21,20 @@
       <label for="bookToggle" class="book-label">
         <div class="book-content">
           <div class="left-page">
-            <h6>Pre-Columbian Era</h6>
-            <p>Originating with the Moche civilization in northern Peru. They marinated raw fish in fermented juice from tumbo fruit.</p>
-            <h6>Spanish Colonial Period</h6>
-            <p>Spanish colonists introduced citrus fruits from Europe and Asia like lemons, limes, oranges; which were used to marinate the fish.</p>
+            <h5 class="era-title">Pre-Columbian Era</h5>
+            <p class="history-info">Originating with the Moche civilization in northern Peru. They marinated raw fish in fermented juice from tumbo fruit.</p>
+            <h5 class="era-title">Spanish Colonial Period</h5>
+            <p class="history-info">Spanish colonists introduced citrus fruits from Europe and Asia like lemons, limes, oranges; which were used to marinate the fish.</p>
             <img class="fish" src=../images/fish.png>
           </div>  
           <div class="right-page">
-            <h6>19th Century</h6>
-            <p>Italian immigrants began serving it with slices of onion.</p>
-            <h6>1920s-1950s</h6>
-            <p>Japanese immigrants began adding aji limo, avocados and corn</p>
-            <h6>1960s-1970s</h6>
-            <p>Native Peruvian chefs reinvented it with innovative fusion styles</p>
+            <h5 class="era-title">19th Century</h5>
+            <p class="history-info">Italian immigrants began serving it with slices of onion.</p>
+            <h5 class="era-title">1920s-1950s</h5>
+            <p class="history-info">Japanese immigrants began adding aji limo, avocados and corn</p>
+            <h5 class="era-title">1960s-1970s</h5>
+            <p class="history-info">Native Peruvian chefs reinvented it with innovative fusion styles</p>
             <img class="lime" src="../images/lime.png">
-            
           </div>
         </div>
       </label>
@@ -40,7 +45,7 @@
       <div class="stone-background">
         <ul class="ingredients-list">
           <h2 class="ingredient-header">Ingredients</h4>
-          <h5 class="select-item">Make sure you have all the ingredients! Click below</h6>
+          <h5 class="select-item">Make sure you have all the ingredients! Click below</h5>
           <li>
             <input type="checkbox" id="cb1" class="hidden-cb" />
             <label for="cb1" class="checklist-label">Fish</label>
