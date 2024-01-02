@@ -5,21 +5,14 @@
 }
 
 .header {
-  display: flex;
+  text-align: center;
   padding-top: 50px;
-  align-items: center;
-  justify-content: center;
   font-weight: 900;
 }
 
 .sub-header {
   text-align: center;
   font-weight: 400;
-}
-
-.divider {
-  margin: 20px;
-  width: 100px;
 }
 
 h1,
@@ -46,10 +39,10 @@ body {
   min-width: 1500px;
   min-height: 700px;
   max-width: 1500px;
-  max-height: 700px;
+  max-height: 724px;
 }
 
-footer {
+/* footer {
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -59,11 +52,23 @@ footer {
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.476);
   font-size: 11px;
+} */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.476);
+  color: rgb(177, 214, 246);
+}
+
+.footer {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: #8f9ec1;
+  color: #759cf5;
   font-weight: bold;
 }
 
