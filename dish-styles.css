@@ -133,7 +133,6 @@ li {
 /* Book content */
 .book-content {
   display: none;
-  /* position: relative; */
 }
 
 .hidden-cb:checked + .book-label .book-content {
@@ -183,4 +182,9 @@ h5 {
   height: 40px;
   margin-top: -20px;
   margin-left: 270px;
+}
+
+/* Iframe */
+.rounded-iframe {
+  border-radius: 10px;
 }
