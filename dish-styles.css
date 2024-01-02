@@ -47,17 +47,17 @@ body {
   font-size: 35px;
   margin-bottom: 0px;
   color: rgb(74, 31, 2);
-  background-color: rgba(73, 28, 2, 0.265);
+  /* background-color: rgba(73, 28, 2, 0.265); */
   text-shadow: 3px 2px 2px rgb(229, 129, 7);
   border-radius: 10px;
 }
 
 .page-header {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .recipe-header {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .click-book-prompt {
@@ -150,7 +150,6 @@ li {
 .hidden-cb:checked + .book-label::before {
   content: url(images/open-book.png);
   padding-left: 270px;
-  position: relative;
 }
 
 .hidden-cb:checked + .book-label .text-overlay {
@@ -173,14 +172,14 @@ li {
 .left-page {
   position: absolute;
   left: 490px;
-  top: 90px;
+  top: 80px;
   width: 235px;
 }
 
 .right-page {
   position: absolute;
   right: 465px;
-  top: 120px;
+  top: 100px;
   width: 300px;
 }
 
