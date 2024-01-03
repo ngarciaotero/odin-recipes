@@ -222,6 +222,11 @@ h5 {
   margin-left: 160px;
 }
 
+.pig-cut {
+  height: 110px;
+  margin-left: 50px;
+}
+
 /* Iframe */
 .rounded-iframe {
   border-radius: 10px;
