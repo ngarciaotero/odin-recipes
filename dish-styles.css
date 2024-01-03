@@ -101,8 +101,8 @@ li {
 
 /* Ingredients List Functionality */
 .hidden-cb:checked + .checklist-label {
-  color: rgb(23, 80, 23);
-  text-shadow: 1px 1px 4px #184402a0;
+  color: rgb(9, 66, 9);
+  text-shadow: 1px 1px 4px #68f522;
 }
 
 .checklist-label::before {
