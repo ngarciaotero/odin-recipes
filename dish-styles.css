@@ -119,14 +119,15 @@ body {
   font-size: 15px;
 }
 
-ul {
+.ingredients-list {
   list-style-type: none;
   padding: 0px;
+  max-height: 175px;
+  overflow-y: auto;
 }
 
 li {
-  margin: 5px;
-  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 /* Book Functionality */
