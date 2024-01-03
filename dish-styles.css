@@ -60,45 +60,6 @@ body {
   margin-top: 10px;
 }
 
-.click-book-prompt {
-  position: relative;
-  font-family: "Cinzel Decorative", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  margin: 0;
-  color: rgb(37, 18, 2);
-  text-shadow: 1px 1px 1px rgba(177, 69, 7, 0.801);
-  top: -40px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0px;
-}
-
-li {
-  margin: 5px;
-  font-size: 20px;
-}
-
-.checklist-label {
-  font-family: "Cinzel Decorative", sans-serif;
-  font-weight: 700;
-  margin-left: 10px;
-  color: rgb(82, 80, 80);
-  font-size: 15px;
-}
-
-.stone-background {
-  background-image: url(images/stone.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 530px;
-  height: 335px;
-  padding-top: 60px;
-  padding-left: 70px;
-}
-
 /* Ingredients List Functionality */
 .hidden-cb:checked + .checklist-label {
   color: rgb(9, 66, 9);
@@ -139,6 +100,35 @@ li {
   margin-bottom: 15px;
 }
 
+/* Ingredient List contents*/
+.stone-background {
+  background-image: url(images/stone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 530px;
+  height: 335px;
+  padding-top: 60px;
+  padding-left: 70px;
+}
+
+.checklist-label {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: 700;
+  margin-left: 10px;
+  color: rgb(82, 80, 80);
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  margin: 5px;
+  font-size: 20px;
+}
+
 /* Book Functionality */
 .book-label::before {
   content: url(images/books/closed-book.png);
@@ -156,6 +146,17 @@ li {
   display: block;
 }
 
+.click-book-prompt {
+  position: relative;
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  color: rgb(37, 18, 2);
+  text-shadow: 1px 1px 1px rgba(177, 69, 7, 0.801);
+  top: -40px;
+}
+
 /* Book content */
 .book-content {
   display: none;
@@ -171,7 +172,7 @@ li {
 
 .left-page {
   position: absolute;
-  left: 490px;
+  left: 489px;
   top: 80px;
   width: 235px;
 }
@@ -200,6 +201,7 @@ h5 {
   color: rgb(157, 2, 2);
 }
 
+/* Dish items */
 .fish {
   width: 100px;
   height: 60px;
@@ -207,11 +209,10 @@ h5 {
   margin-left: 220px;
 }
 
-.lime {
-  width: 50px;
-  height: 40px;
-  margin-top: -20px;
-  margin-left: 270px;
+.herbs {
+  width: 530px;
+  height: 300px;
+  margin-top: -10px;
 }
 
 /* Iframe */
