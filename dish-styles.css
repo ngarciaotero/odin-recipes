@@ -16,7 +16,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url(images/mini-world.jpg);
+  background-image: url(images/backgrounds/mini-world.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 112vw 101vh;
@@ -106,12 +106,12 @@ li {
 }
 
 .checklist-label::before {
-  content: url(images/empty-check-mark.png);
+  content: url(images/checkmarks/empty-check-mark.png);
   cursor: pointer;
 }
 
 .hidden-cb:checked + .checklist-label::before {
-  content: url(images/fill-check-mark.png);
+  content: url(images/checkmarks/fill-check-mark.png);
 }
 
 .hidden-cb {
@@ -141,14 +141,14 @@ li {
 
 /* Book Functionality */
 .book-label::before {
-  content: url(images/closed-book.png);
+  content: url(images/books/closed-book.png);
   padding-left: 480px;
   position: relative;
   top: -20px;
 }
 
 .hidden-cb:checked + .book-label::before {
-  content: url(images/open-book.png);
+  content: url(images/books/open-book.png);
   padding-left: 270px;
 }
 
