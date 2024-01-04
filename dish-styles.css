@@ -234,6 +234,11 @@ h5 {
   transform: scaleX(-1);
 }
 
+.beans {
+  height: 95px;
+  margin-left: 170px;
+}
+
 /* Iframe */
 .rounded-iframe {
   border-radius: 10px;
