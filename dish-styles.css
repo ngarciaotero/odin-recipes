@@ -251,6 +251,12 @@ h5 {
   margin-left: 110px;
 }
 
+.egg {
+  height: 220px;
+  margin-top: -55px;
+  margin-left: 50px;
+}
+
 /* Iframe */
 .rounded-iframe {
   border-radius: 10px;
