@@ -4,68 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dish Name</title>
+    <title>Pastel De Choclo</title>
     <link rel="stylesheet" href="../dish-styles.css" />
-    <link rel="icon" href="/images/cookbook.png" type="png" />
+    <link rel="icon" href="../images/cookbook.png" type="png" />
   </head>
   <body>
     <div class="background-container"></div>
-    <h4 class="page-header">_____________</h4>
+    <h4 class="page-header">paSTEl DE ChOCLO</h4>
     <div class="book-container">
       <input type="checkbox" id="bookToggle" class="hidden-cb" />
-      <label for="bookToggle" class="book-label">
+      <label for="bookToggle" class="book-label" id="chile-history-book">
         <div class="book-content">
           <div class="left-page">
-            <h5 class="era-title">_____________</h5>
-            <p class="history-info">_____________</p>
-            <h5 class="era-title">_____________</h5>
-            <p class="history-info">_____________</p>
+            <h5 class="era-title">Pre-1541</h5>
+            <p class="history-info">
+              Indigenous Mapuche people cultivated corn as a staple crop and had
+              developed various foods using corn meal and corn dough
+            </p>
+            <h5 class="era-title">Spanish Colonization</h5>
+            <p class="history-info">
+              Spanish introduced beef, onion, olives. Mapuche used the new
+              ingredients in tradtional corn-based recipes
+            </p>
           </div>
           <div class="right-page">
-            <h5 class="era-title">_____________</h5>
-            <p class="history-info">_____________</p>
-            <h5 class="era-title">_____________</h5>
-            <p class="history-info">_____________</p>
+            <h5 class="era-title">1810s-1850s</h5>
+            <p class="history-info">
+              The dish emerged in central Chile combining Mapuche corn crust
+              with Spanish fillings
+            </p>
+            <h5 class="era-title">1850s-1950s</h5>
+            <p class="history-info">
+              Considered a national dish in Chile. Represented the blending of
+              indigenous and colonial influences in cuisine
+            </p>
+            <img class="corn-cobs" src="/images/dish-items/corn-cobs.png" />
           </div>
         </div>
       </label>
       <h5 class="click-book-prompt">
-        Click the book to learn about the history of _____________
+        Click the book to learn about the history of pastel de choclo
       </h5>
     </div>
     <h4 class="recipe-header">Let's Start Cooking</h4>
     <div class="recipe">
       <div class="stone-background">
+        <h2 class="ingredient-header">INGREDIENTS</h2>
+        <h5 class="select-item">
+          Keep track of your ingredients by clicking on them
+        </h5>
         <ul class="ingredients-list">
-          <h2 class="ingredient-header">INGREDIENTS</h4>
-          <h5 class="select-item">Keep track of your ingredients by clicking on them</h5>
           <li>
             <input type="checkbox" id="cb1" class="hidden-cb" />
-            <label for="cb1" class="checklist-label">_____________</label>
+            <label for="cb1" class="checklist-label">Corn</label>
           </li>
           <li>
             <input type="checkbox" id="cb2" class="hidden-cb" />
-            <label for="cb2" class="checklist-label">_____________</label>
+            <label for="cb2" class="checklist-label">Milk</label>
           </li>
           <li>
             <input type="checkbox" id="cb3" class="hidden-cb" />
-            <label for="cb3" class="checklist-label">_____________</label>
+            <label for="cb3" class="checklist-label">Fresh basil</label>
           </li>
           <li>
             <input type="checkbox" id="cb4" class="hidden-cb" />
-            <label for="cb4" class="checklist-label">_____________</label>
+            <label for="cb4" class="checklist-label">Sugar</label>
           </li>
           <li>
             <input type="checkbox" id="cb5" class="hidden-cb" />
-            <label for="cb5" class="checklist-label">_____________</label>
+            <label for="cb5" class="checklist-label">Butter</label>
           </li>
           <li>
             <input type="checkbox" id="cb6" class="hidden-cb" />
-            <label for="cb6" class="checklist-label">_____________</label>
+            <label for="cb6" class="checklist-label">Chicken</label>
+          </li>
+          <li>
+            <input type="checkbox" id="cb7" class="hidden-cb" />
+            <label for="cb7" class="checklist-label">Egg</label>
+          </li>
+          <li>
+            <input type="checkbox" id="cb8" class="hidden-cb" />
+            <label for="cb8" class="checklist-label">Olives</label>
+          </li>
+          <li>
+            <input type="checkbox" id="cb9" class="hidden-cb" />
+            <label for="cb9" class="checklist-label">Raisins</label>
+          </li>
+          <li>
+            <input type="checkbox" id="cb10" class="hidden-cb" />
+            <label for="cb10" class="checklist-label">Pino de carne</label>
           </li>
         </ul>
       </div>
-      <iframe class="rounded-iframe"></iframe>
+      <iframe
+        class="rounded-iframe"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/75el7a9_HaQ?si=cDgOS5HdheTABNH2"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </div>
+    <footer>
+      <h4 class="footer">Credits</h4>
+      <p class="footer">
+        Corn image by user tw2113 on <a href="Freeimages.com">Freeimages.com</a>
+      </p>
+    </footer>
   </body>
 </html>
