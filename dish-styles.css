@@ -269,6 +269,11 @@ h5 {
   margin-left: 50px;
 }
 
+.arepa {
+  height: 180px;
+  margin-top: -40px;
+}
+
 /* Iframe */
 .rounded-iframe {
   border-radius: 10px;
