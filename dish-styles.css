@@ -239,6 +239,12 @@ h5 {
   margin-left: 170px;
 }
 
+.cows-grazing {
+  height: 150px;
+  margin-left: 134px;
+  margin-top: -65px;
+}
+
 /* Iframe */
 .rounded-iframe {
   border-radius: 10px;
