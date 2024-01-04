@@ -263,6 +263,12 @@ h5 {
   margin-top: -28px;
 }
 
+.grilling {
+  height: 150px;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
 /* Iframe */
 .rounded-iframe {
   border-radius: 10px;
