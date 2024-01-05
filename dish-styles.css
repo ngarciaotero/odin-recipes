@@ -47,7 +47,6 @@ body {
   font-size: 35px;
   margin-bottom: 0px;
   color: rgb(74, 31, 2);
-  /* background-color: rgba(73, 28, 2, 0.265); */
   text-shadow: 3px 2px 2px rgb(229, 129, 7);
   border-radius: 10px;
 }
@@ -104,7 +103,8 @@ body {
 .stone-background {
   background-image: url(images/stone.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 90% 100%;
+  min-width: 530px;
   width: 530px;
   height: 335px;
   padding-top: 60px;
@@ -140,10 +140,11 @@ li {
 
 .hidden-cb:checked + .book-label::before {
   content: url(images/books/open-book.png);
+  position: relative;
   padding-left: 270px;
 }
 
-.hidden-cb:checked + .book-label .text-overlay {
+.hidden-cb:checked + .book-label {
   display: block;
 }
 
@@ -172,17 +173,20 @@ li {
 }
 
 .left-page {
-  position: absolute;
   left: 489px;
   top: 80px;
   width: 235px;
 }
 
 .right-page {
-  position: absolute;
-  right: 465px;
+  left: 740px;
   top: 100px;
   width: 300px;
+}
+
+.right-page,
+.left-page {
+  position: absolute;
 }
 
 .right-page,
@@ -241,7 +245,7 @@ h5 {
 
 .cows-grazing {
   height: 150px;
-  margin-left: 134px;
+  margin-left: 140px;
   margin-top: -65px;
 }
 
@@ -285,11 +289,11 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.476);
+  color: rgb(241, 187, 154);
 }
 
 .footer {
   margin: 0;
-  color: rgb(241, 187, 154);
 }
 
 a {
