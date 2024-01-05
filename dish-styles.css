@@ -101,7 +101,7 @@ body {
 
 /* Ingredient List contents*/
 .stone-background {
-  background-image: url(images/stone.png);
+  background-image: url(images/backgrounds/stone.png);
   background-repeat: no-repeat;
   background-size: 90% 100%;
   min-width: 530px;
@@ -221,9 +221,10 @@ h5 {
 }
 
 .empanada {
-  height: 90px;
-  margin-top: -25px;
+  height: 100px;
+  margin-top: -34px;
   margin-left: 160px;
+  transform: scaleY(-1);
 }
 
 .pig-cut {
